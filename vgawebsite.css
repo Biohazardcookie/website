@@ -7,33 +7,41 @@ body {
   }
   
   h1 { 
-    line-height: 0.6; 
-    font-size: 80px; 
-    margin: 10px 10px 0px;
+    font: 5em "Courier New", Courier, monospace;
+    height: 0px;
+    padding: 0px;
+    margin: 10px auto 0px;
     display: inline-block;
     text-align: center; 
-    font-family: "Courier New", Courier, monospace;
     color: black; 
   }
   
   h2 { 
-    font-size: 12px; 
-    margin: 0px 40px 40px; 
+    font: .75em "Courier New", Courier, monospace; 
+    margin: 0px auto 50px; 
     text-align: center; 
-    font-family: "Courier New", Courier, monospace;
     color: black; 
     border-bottom: 2px solid black;
   }
   
   h3 {
-    line-height: 0.65; 
-    font-size: 24px; 
-    margin: 0px;
+    font: 1.5em "Courier New", Courier, monospace;
+    line-height: 0.65;
+    height: 0px;
+    padding: 0px;
+    margin: 0%;
     max-width: 0px;
     display: inline-block;
     text-align: center; 
-    font-family: "Courier New", Courier, monospace;
     color: black;
+  }
+
+  h4 {
+    font-variant: small-caps;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif; 
   }
   
   p { 
@@ -43,7 +51,7 @@ body {
     max-width: 650px; 
     color: #444; 
     font-family: "Times New Roman", Times, serif; 
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
   }
   
